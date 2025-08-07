@@ -1,0 +1,14 @@
+# Tateti en Python
+
+Este es un proyecto simple de **Tateti** (también conocido como Tres en Raya) hecho en Python como ejercicio de programación.
+
+## 📌 Descripción
+El juego permite que dos jugadores se turnen para poner sus fichas (`X` y `0`) en un tablero de 3x3 indicando la fila y la columna (de 0 a 2).  
+Gana el primero que logre alinear tres de sus fichas en fila, columna o diagonal.  
+Si el tablero se llena sin que nadie gane, es empate.
+
+## 🛠 Estructura de Archivos
+- **cli.py** → Es el programa principal que se ejecuta. Maneja la interacción con el usuario por consola.
+- **tateti.py** → Contiene la clase `Tateti` con la lógica del juego.
+- **tablero.py** → Clase `Tablero` que guarda y actualiza el estado del tablero.
+- **jugador.py** → Clase `Jugador` para manejar nombre y ficha de cada jugador.
